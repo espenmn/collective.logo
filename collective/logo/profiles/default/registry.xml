@@ -2,6 +2,8 @@
 
 <registry>
  <records interface="collective.logo.interfaces.ILogoSettings">
+       <value key="logo"></value>
+       <value key="footer"></value>
  </records>
 </registry>
  

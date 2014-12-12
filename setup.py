@@ -26,6 +26,7 @@ setup(name='collective.logo',
       install_requires=[
           'setuptools',
            'plone.app.registry',
+           'plone.directives.form',
           # -*- Extra requirements: -*-
       ],
       entry_points="""

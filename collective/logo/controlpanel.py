@@ -8,6 +8,17 @@ from collective.logo.interfaces import ILogoSettingsProvider
 from zope.dottedname.resolve import resolve
 from zope.interface import alsoProvides
 
+
+
+from z3c.form import interfaces
+from zope import schema
+
+from plone.directives import form
+from collective.logo.interfaces import ILogoSettingsProvider
+
+
+from zope.i18nmessageid import MessageFactory
+
 _ = MessageFactory('collective.logo')
 
 
@@ -80,3 +91,6 @@ class LogoSettingsEditForm(controlpanel.RegistryEditForm):
 
 class LogoControlPanel(controlpanel.ControlPanelFormWrapper):
     form = LogoSettingsEditForm
+
+                        
+
