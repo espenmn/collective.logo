@@ -27,6 +27,8 @@ setup(name='collective.logo',
           'setuptools',
            'plone.app.registry',
            'plone.directives.form',
+           'plone.namedfile',
+  		   'plone.formwidget.namedfile',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
