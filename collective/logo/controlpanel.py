@@ -62,7 +62,7 @@ class LogoSettingsEditForm(controlpanel.RegistryEditForm):
     schema = ILogoSettings
     label = _(u"Logo Controlpanel")
     description = _(u"Change the default Plone logo")
-
+    
     def getContent(self):
         interfaces = [self.schema]
         interfaces.extend(self.additionalSchemata)
