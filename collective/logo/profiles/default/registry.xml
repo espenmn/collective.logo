@@ -2,7 +2,14 @@
 
 <registry>
  <records interface="collective.logo.interfaces.ILogoSettings">
-       <value key="logo"></value>
+ 
+ 
+	 <record name="logo">
+        <field type="plone.namedfile.field.NamedBlobImage"></field>
+             
+ 
+    </record>
+ 
  </records>
 </registry>
  
